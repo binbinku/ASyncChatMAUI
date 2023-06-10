@@ -18,7 +18,5 @@
 ## 运行截图
 
 <img src="./Doc/MacOS_IOS01.png" width="500">
-<img src="./Doc/IOS01.png" width="240">
-<img src="./Doc/IOS02.png" width="240">
 <img src="./Doc/MacOS01.png" width="500">
 <img src="./Doc/MacOS03.png" width="500">
