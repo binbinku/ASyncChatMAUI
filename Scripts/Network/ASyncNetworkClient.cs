@@ -8,7 +8,7 @@ public class ASyncNetworkClient
     #region 字段
     private static Socket clientSocket;
 
-    private static string serverIP = "172.20.10.2";
+    private static string serverIP = "127.0.0.1";
 
     private static int serverPort = 14524;
 
