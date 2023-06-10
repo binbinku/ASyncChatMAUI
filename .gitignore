@@ -1,0 +1,8 @@
+.vscode/
+
+.meteor/
+
+bin/
+obj/
+
+.DS_Store

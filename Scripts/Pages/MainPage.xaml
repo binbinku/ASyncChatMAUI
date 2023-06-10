@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+    <VerticalStackLayout VerticalOptions="FillAndExpand">
+        
+        <ScrollView
+            VerticalOptions="FillAndExpand"
+            >
+            <VerticalStackLayout
+                x:Name="MainContent"
+                BackgroundColor="white"
+                MinimumHeightRequest="650"
+                VerticalOptions="FillAndExpand"
+                >
+                <!-- <Frame
+                    BackgroundColor="white"
+                    HeightRequest="60"
+                    Margin="10"
+                    Padding="0"
+                    CornerRadius="10"
+                    IsClippedToBounds="true"
+                    HasShadow="true"
+                    >
+                    <HorizontalStackLayout
+                        BackgroundColor="white"
+                        HeightRequest="60"
+                        >
+                        <Label 
+                            Text="[John]:"
+                            BackgroundColor="gray"
+                            WidthRequest="80"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            FontAttributes="Bold,Italic"
+                            FontFamily="Consolas"
+                        />
+                        <Label 
+                            Text="Im a BadBoy"
+                            BackgroundColor="green"
+                            WidthRequest="290"
+                            HorizontalTextAlignment="Start"
+                            Padding="10,0,0,0"
+                            VerticalTextAlignment="Center"
+                            FontSize="20"
+                            FontFamily="Consolas"
+                        />
+                    </HorizontalStackLayout>
+                </Frame>  -->
+                <!-- <HorizontalStackLayout
+                    BackgroundColor="gray"
+                    MinimumHeightRequest="60"
+                    >
+                    <Image Source="csharp.png"
+                        WidthRequest="40"
+                        HeightRequest="40"
+                        Margin="10"
+                        VerticalOptions="Start"
+                    />
+                        <VerticalStackLayout
+                            BackgroundColor="yellow"
+                            WidthRequest="330"
+                        >
+                        <Label
+                            Text="Name"
+                            Margin="0,5,0,0"
+                            FontAttributes="Bold"
+                            FontFamily="Consolas"
+                            />
+                        <Label
+                            Text="123456789 123456789 123456789 123456789&#10;123456789 123456789 123456789 123456789&#10;end
+                                  "
+                            Margin="10"
+                            BackgroundColor="red"
+                            MinimumHeightRequest="20"
+                            HorizontalOptions="Start"
+                            WidthRequest="310"
+                            LineBreakMode="CharacterWrap"
+                            />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout> -->
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <StackLayout
+            BackgroundColor="{StaticResource Primary}"
+            HeightRequest="105"
+            Orientation="Horizontal"
+            >
+            <Frame
+                WidthRequest="270"
+                HeightRequest="50"
+                Margin="5,5,5,0"
+                VerticalOptions="Start"
+                BorderColor="gray"
+                >
+                <Entry
+                    x:Name="MainInput" 
+                    Placeholder="enter text..."
+                    WidthRequest="270"
+                    HeightRequest="50"
+                    BackgroundColor="white"
+                    TextColor="black"
+                    PlaceholderColor="gray"
+                    />
+            </Frame>
+            <Button
+                x:Name="MainSendBtn"
+                Text="Send"
+                BackgroundColor="white"
+                TextColor="black"
+                WidthRequest="100"
+                HeightRequest="50"
+                VerticalOptions="Start"
+                Margin="5,5,5,0"
+                BorderColor="gray"
+                BorderWidth="1"
+                
+            >
+            </Button>
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

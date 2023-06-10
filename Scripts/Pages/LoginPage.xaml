@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.LoginPage">
+   
+   <VerticalStackLayout
+    >
+    <Image 
+        Source="csharp.png"
+        WidthRequest="100"
+        HeightRequest="100"
+        Margin="0,100,0,0"
+    />
+    <Label 
+        Text="Name"
+        HorizontalOptions="Center"
+        Margin="0,20,0,0"
+        FontSize="25"
+        FontFamily="Consolas"
+        FontAttributes="Bold"
+        />
+    <Entry
+        x:Name="LoginNameEntry"
+        Placeholder="Enter NickName"
+        WidthRequest="300"
+        HorizontalOptions="Center"
+        Margin="0,20,0,0"
+        HorizontalTextAlignment="Center"
+        />
+    <Button
+        x:Name="LoginBtn"
+        Text="Login"
+        HorizontalOptions="Center"
+        BackgroundColor="#4B2Bb8"
+        Margin="0,40,0,0"
+        WidthRequest="200"
+        HeightRequest="60"
+        FontFamily="Consolas"
+        FontSize="22"
+        FontAttributes="Bold"
+        />
+    </VerticalStackLayout>
+
+</ContentPage>
